@@ -55,7 +55,7 @@ def main():
             # Write image to file
             imwrite(IMAGE_PATH, image)
 
-            # AI's confidence in determining if there it sees a person.
+            # AI's confidence in determining if there is a person in the image.
             confidence = voodoo_magic(IMAGE_PATH)
             if confidence > 89:
 
